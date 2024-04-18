@@ -1,0 +1,23 @@
+{
+    "name": "intake-care-development",
+    "version": "1.2.0",
+    "description": "intake care skill",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "IntakeCare Team",
+    "license": "Apache License",
+    "dependencies": { 
+        "ask-sdk-core": "^2.11.0",
+        "ask-sdk-model": "^1.19.0",
+        "i18next": "^21.3.2",
+        "ask-sdk-s3-persistence-adapter": "^2.11.0",
+        "ask-sdk-dynamodb-persistence-adapter": "^2.11.0",
+        "moment-timezone": "^0.5.33",
+        "axios": "^0.23.0",
+         "i18next-sprintf-postprocessor": "^0.2.2"
+        
+      
+    }
+}

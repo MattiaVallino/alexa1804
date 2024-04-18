@@ -1,0 +1,29 @@
+
+module.exports = {
+   translation: {
+       
+        PERMISSION_ERROR_MSG: "Per favore, dàmmi i permessi nella sezione Attività dell'app Alexa, poi riapri la skill ",
+        SECURITY_CODE_FIRST_TIME_MSG: ' Il tuo codice di sicurezza non è ancora stato registrato. Se non ne disponi vai sul sito di intake care e creane uno, altrimenti dimmi:inserisci il codice di sicurezza',
+        SECURITY_CODE_ERROR: "Il tuo codice di sicurezza è incorretto o non è ancora stato registrato. Se non ne disponi puoi crearlo sul sito di intake care, altrimenti dimmi: inserisci il codice di sicurezza",
+        LOAD_THERAPY_MSG: 'Ciao %s! Dimmi: configura le mie terapie, per procedere',
+        NEW_THERAPY_MSG:' è disponibile una terapia con il farmaco %s. Se vuoi inserirla dimmi: inserisci questa terapia.',
+        UPDATED_THERAPY_MSG:'è stata modificata la terapia con il farmaco %s. Se vuoi aggiornarla dimmi: modifica questa terapia.',
+        REMINDERS_COMPLETED_MSG : "I promemoria per i tuoi farmaci sono stati configurati. Dimmi: chiedi a Medico Virtuale di segnarsi che ho preso le medicine quando l'avrai fatto o chiedi alexa quali sono i comandi.",
+        CHECK_THERAPIES_MSG :" Ci sono state modifiche alle tue terapie. Dimmi: apri medico virtuale e poi richiedimi che medicine devo prendere",
+        NO_MEDICINE_MSG :"Oggi non devi più prendere medicine secondo la programmazione ",
+        MEDICINE_OVER_MSG:'In questo momento non sono previsti farmaci da prendere. Riprova più tardi o controlla i tuoi promemoria',
+        TAKEN_CONFIRMATION_MSG:"%s Hai preso %s di %s?",
+        TAKEN_CONFIRMATION_ANS_LAST_MSG :'Ok! Ho segnato la tua medicina come presa! Ho registrato tutto per ora!',
+        TAKEN_CONFIRMATION_ANS_MSG:"Ok! Ho segnato la tua medicina come presa!",
+        TAKEN_CONFIRMATION_ANS_NO_LAST_MSG :'Ok! Ho segnato la tua medicina non come presa! Ho registrato tutto per ora!',
+        TAKEN_CONFIRMATION_ANS_NO_MSG:"Ok! Ho segnato la tua medicina come non presa!",
+        LAST_INTAKE_MSG :" L'ultimo farmaco che hai preso è %s di %s alle %s ",
+        ALL_TAKEN_MSG :"Complimenti! Oggi hai preso tutte le medicine programmate fino a questo momento!",
+        FORGOTTEN_MSG:"Ciao! Oggi hai dimenticato di prendere %s medicinali. Nello specifico %s",
+       LOW_ADHERENCE:"Attenzione! La tua aderenza alle terapie in questo momento è del %s per cento. è un dato molto basso, cerca di fare più attenzione.",
+       MID_ADHERENCE :"La tua aderenza alle terapie in questo momento è del %s per cento .",
+       HIGH_ADHERENCE:"Grande! La tua aderenza alle terapie in questo momento è del %s per cento.",
+       ERROR_ADHERENCE:"Non riesco ad accedere ai tuoi dati di aderenza"
+    }
+
+}

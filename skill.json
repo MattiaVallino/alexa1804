@@ -1,0 +1,110 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "it-IT": {
+          "summary": "Ricorda di prendere le tue medicine",
+          "examplePhrases": [
+            "Alexa, apri medico virtuale",
+            "apri medico virtuale"
+          ],
+          "keywords": [],
+          "name": "InTakeCare-Development",
+          "description": "La skill ti ricorda di prendere le medicine, è richiesto l\u0027utilizzo dell\u0027app per concedere i permessi e accedere alla pagine web di intake-care per creare il codice di sicurezza e verificare le proprie statistiche.",
+          "smallIconUri": "file://assets/images/it-IT_smallIconUri.png",
+          "largeIconUri": "file://assets/images/it-IT_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"Sample Testing Instructions.\"}",
+      "category": "HEALTH_TRACKERS_AND_REMINDERS",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:686692568153:function:92802f7b-10f7-484f-b8a5-98bd3f5a1256:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:686692568153:function:92802f7b-10f7-484f-b8a5-98bd3f5a1256:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:686692568153:function:92802f7b-10f7-484f-b8a5-98bd3f5a1256:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:686692568153:function:92802f7b-10f7-484f-b8a5-98bd3f5a1256:Release_0"
+            }
+          }
+        },
+        "tasks": [
+          {
+            "name": "Routine",
+            "version": "1"
+          },
+          {
+            "name": "Prova",
+            "version": "1"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [
+      {
+        "name": "alexa::devices:all:address:full:read"
+      },
+      {
+        "name": "alexa::profile:name:read"
+      },
+      {
+        "name": "alexa::profile:email:read"
+      },
+      {
+        "name": "alexa::profile:mobile_number:read"
+      },
+      {
+        "name": "alexa::household:lists:read"
+      },
+      {
+        "name": "alexa::household:lists:write"
+      },
+      {
+        "name": "alexa::alerts:reminders:skill:readwrite"
+      },
+      {
+        "name": "alexa::devices:all:geolocation:read"
+      },
+      {
+        "name": "alexa::person_id:read"
+      }
+    ],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "it-IT": {
+          "privacyPolicyUrl": "https://www.amazon.it/b?ie\u003dUTF8\u0026node\u003d14927981031"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": true
+    }
+  }
+}
